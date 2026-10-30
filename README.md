@@ -76,11 +76,21 @@ Xin chào, mình là **Sơn** - developer đến từ đất cảng.
 
 ---
 
-##  3D Contribution
+##  GitHub Trophies
 
 <div align="center">
 
-![3D Contribution](https://raw.githubusercontent.com/asotaku205/asotaku205/main/profile-3d-contrib/profile-season-animate.svg?v=1)
+![GitHub Trophies](https://raw.githubusercontent.com/asotaku205/asotaku205/output/github-profile-trophy.svg)
+
+</div>
+
+---
+
+##  Bonsai
+
+<div align="center">
+
+![Kodama bonsai](https://kodama-sigma.vercel.app/asotaku205.svg?theme=sakura&species=sakura)
 
 </div>
 
@@ -95,6 +105,16 @@ Xin chào, mình là **Sơn** - developer đến từ đất cảng.
   <source srcset="https://raw.githubusercontent.com/asotaku205/asotaku205/sakura-output/sakura-garden.svg" media="(prefers-color-scheme: light)" width="846" height="132" style="height:auto">
   <img src="https://raw.githubusercontent.com/asotaku205/asotaku205/sakura-output/sakura-garden.svg" width="846" height="132" style="height:auto" alt="sakura garden">
 </picture>
+
+</div>
+
+---
+
+##  Now Playing
+
+<div align="center">
+
+![Now Playing](https://raw.githubusercontent.com/asotaku205/asotaku205/main/spotify.svg)
 
 </div>
 
