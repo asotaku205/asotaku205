@@ -80,7 +80,7 @@ Xin chào, mình là **Sơn** - developer đến từ đất cảng.
 
 <div align="center">
 
-![3D Contribution](https://raw.githubusercontent.com/asotaku205/asotaku205/main/profile-3d-contrib/profile-season-animate.svg)
+![3D Contribution](https://raw.githubusercontent.com/asotaku205/asotaku205/main/profile-3d-contrib/profile-season-animate.svg?v=1)
 
 </div>
 
