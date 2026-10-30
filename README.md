@@ -6,7 +6,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=500&lines=Developer;Building+AniMan;Learning+Applied+AI;Kh%C3%B3+ch%E1%BB%A9+kh%C3%B4ng+ph%E1%BA%A3i+kh%C3%B4ng+th%E1%BB%83;Glory+Glory+Man+United)](https://git.io/typing-svg)
 
-**Developer**
+**Developer ·**
 
 > "Khó chứ không phải không thể."
 > >
@@ -114,7 +114,7 @@ Xin chào, mình là **Sơn** - developer đến từ đất cảng.
 
 <div align="center">
 
-![Now Playing](https://raw.githubusercontent.com/asotaku205/asotaku205/main/spotify.svg)
+![Now Playing](https://raw.githubusercontent.com/asotaku205/asotaku205/main/lastfm.svg)
 
 </div>
 
