@@ -57,8 +57,8 @@ Xin chào, mình là **Sơn** - developer đến từ đất cảng.
 
 <div align="center">
 
-![Sơn's GitHub stats](https://github-readme-stats.vercel.app/api?username=asotaku205&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=asotaku205&layout=compact&theme=tokyonight&hide_border=true)
+![Sơn's GitHub stats](https://github-stats-extended.vercel.app/api?username=asotaku205&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=asotaku205&layout=compact&theme=tokyonight&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=asotaku205&theme=tokyonight&hide_border=true)
 
