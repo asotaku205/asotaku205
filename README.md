@@ -66,11 +66,11 @@ Xin chào, mình là **Sơn** - developer đến từ đất cảng.
 
 ---
 
-##  GitHub Trophies
+##  Recent Activity
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=asotaku205&theme=tokyonight&column=7&margin-w=15&margin-h=15&no-bg=true&no-frame=true)
+![Activity Sparkline](https://ghstats.dev/api/sparkline?username=asotaku205&days=30&width=700)
 
 </div>
 
