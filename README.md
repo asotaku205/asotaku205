@@ -98,7 +98,7 @@ Xin chào, mình là **Sơn** - developer đến từ đất cảng.
 
 <div align="center">
 
-*Code và&#32;*Âm nhạc.
+*Code và Âm nhạc.*
 
 </div>
 
