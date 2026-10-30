@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Do%20Tran%20Anh%20Son&fontSize=42&fontColor=ffffff&animation=fadeIn" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:023E8A,100:00B4D8&height=200&section=header&text=Do%20Tran%20Anh%20Son&fontSize=42&fontColor=ffffff&animation=fadeIn" alt="header" />
 
 <div align="center">
 
@@ -76,11 +76,11 @@ Xin chào, mình là **Sơn** - developer đến từ đất cảng.
 
 ---
 
-##  Activity Graph
+##  3D Contribution
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=asotaku205&theme=tokyo-night&hide_border=true)
+![3D Contribution](https://raw.githubusercontent.com/asotaku205/asotaku205/main/profile-3d-contrib/profile-season-animate.svg)
 
 </div>
 
@@ -102,4 +102,4 @@ Xin chào, mình là **Sơn** - developer đến từ đất cảng.
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:023E8A,100:00B4D8&height=120&section=footer&animation=fadeIn" alt="footer" />
