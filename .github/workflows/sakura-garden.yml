@@ -1,26 +1,32 @@
-name: Spotify Now Playing
+name: Sakura Garden
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/sakura-garden.yml'
 
 jobs:
-  update:
+  generate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - name: Generate Spotify SVG
-        run: python3 spotify.py
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate sakura garden
+        uses: a104437ana/sakura-garden@v1
         env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add spotify.svg
-          git diff --staged --quiet || (git commit -m "Update Spotify now playing" && git push)
+          git checkout --orphan sakura-output
+          git add sakura-garden.svg sakura-garden-dark.svg
+          git commit -m "Update sakura garden" || exit 0
+          git push -f origin sakura-output
