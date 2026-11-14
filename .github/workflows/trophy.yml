@@ -1,0 +1,33 @@
+name: Generate GitHub Profile Trophy
+
+on:
+  schedule:
+    - cron: "3 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  trophy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          repository: ryo-ma/github-profile-trophy
+          ref: e3c89df995e92e67cdd4b2acaab9d974583dc1f7
+          path: trophy
+      - uses: denoland/setup-deno@11b63cf76cfcafb4e43f97b6cad24d8e8438f62d
+        with:
+          deno-version: v1.x
+      - run: deno run --allow-net --allow-env --allow-read --allow-write trophy/render_svg.ts "${{ github.repository_owner }}" dist/github-profile-trophy.svg tokyonight
+        env:
+          GITHUB_TOKEN1: ${{ github.token }}
+      - run: test -s dist/github-profile-trophy.svg
+      - uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
